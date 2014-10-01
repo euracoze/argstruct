@@ -5,13 +5,9 @@ public class LinearSearch<T> {
   public int search(T[] items, T key) {
 
     for (int searchIndex = 0; searchIndex < items.length; searchIndex++) {
-
       if (key.equals(items[searchIndex])) {
-
         return searchIndex;
-
       }
-
     }
 
     return -1;
